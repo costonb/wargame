@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8000C1029A1657300E64582 /* IndividualScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8000C0F29A1657300E64582 /* IndividualScore.swift */; };
+		B8000C1329A1679000E64582 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8000C1229A1679000E64582 /* GameModel.swift */; };
+		B8000C1529A175BF00E64582 /* DealButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8000C1429A175BF00E64582 /* DealButton.swift */; };
+		B8000C1729A177E800E64582 /* CardArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8000C1629A177E800E64582 /* CardArea.swift */; };
+		B8000C1929A1789800E64582 /* ScoreArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8000C1829A1789800E64582 /* ScoreArea.swift */; };
 		B8A79DA9299712C700E66ABB /* WarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A79DA8299712C700E66ABB /* WarApp.swift */; };
 		B8A79DAB299712C700E66ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A79DAA299712C700E66ABB /* ContentView.swift */; };
 		B8A79DAD299712DF00E66ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A79DAC299712DF00E66ABB /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8000C0F29A1657300E64582 /* IndividualScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualScore.swift; sourceTree = "<group>"; };
+		B8000C1229A1679000E64582 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		B8000C1429A175BF00E64582 /* DealButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealButton.swift; sourceTree = "<group>"; };
+		B8000C1629A177E800E64582 /* CardArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardArea.swift; sourceTree = "<group>"; };
+		B8000C1829A1789800E64582 /* ScoreArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArea.swift; sourceTree = "<group>"; };
 		B8A79DA5299712C700E66ABB /* War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = War.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A79DA8299712C700E66ABB /* WarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarApp.swift; sourceTree = "<group>"; };
 		B8A79DAA299712C700E66ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8000C0E29A1653400E64582 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8000C0F29A1657300E64582 /* IndividualScore.swift */,
+				B8000C1429A175BF00E64582 /* DealButton.swift */,
+				B8000C1629A177E800E64582 /* CardArea.swift */,
+				B8000C1829A1789800E64582 /* ScoreArea.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8000C1129A1675B00E64582 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8000C1229A1679000E64582 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B8A79D9C299712C600E66ABB = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +80,8 @@
 		B8A79DA7299712C700E66ABB /* War */ = {
 			isa = PBXGroup;
 			children = (
+				B8000C1129A1675B00E64582 /* Model */,
+				B8000C0E29A1653400E64582 /* Views */,
 				B8A79DA8299712C700E66ABB /* WarApp.swift */,
 				B8A79DAA299712C700E66ABB /* ContentView.swift */,
 				B8A79DAC299712DF00E66ABB /* Assets.xcassets */,
@@ -137,6 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8000C1029A1657300E64582 /* IndividualScore.swift in Sources */,
+				B8000C1529A175BF00E64582 /* DealButton.swift in Sources */,
+				B8000C1929A1789800E64582 /* ScoreArea.swift in Sources */,
+				B8000C1729A177E800E64582 /* CardArea.swift in Sources */,
+				B8000C1329A1679000E64582 /* GameModel.swift in Sources */,
 				B8A79DAB299712C700E66ABB /* ContentView.swift in Sources */,
 				B8A79DA9299712C700E66ABB /* WarApp.swift in Sources */,
 			);

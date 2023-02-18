@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct WarApp: App {
+    @StateObject private var modelData = GameModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
